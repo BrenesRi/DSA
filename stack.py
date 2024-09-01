@@ -18,7 +18,8 @@ class Solution:
 
         return not stack
     
-#Another cool problem to better understand stacks is the "min stack" problem
+#Another cool problem to better understand stacks is the "min stack" problem where we have two stacks, one extra that carries the
+#min of the stack, allowing us to access the min of the stack in O(1)
 
 class MinStack:
     def __init__(self):
